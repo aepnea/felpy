@@ -21,7 +21,7 @@
   </div>
   <div class="field">
     <%= f.label :attachment %><br>
-    <%= f.file_field :attachment %>
+    <%= f.text_field :attachment %>
   </div>
   <div class="field">
     <%= f.hidden_field :user_id, :value => @user_id %>
@@ -47,8 +47,8 @@
     <%= f.text_field :delivery_name %>
   </div>
   <div class="field">
-    <%= f.label :price_id %><br>
-    <%= f.number_field :price_id %>
+    <%= f.label :price %><br>
+    <%= f.number_field :price_id, :disabled => true%>
   </div>
   <div class="actions">
     <%= f.submit %>

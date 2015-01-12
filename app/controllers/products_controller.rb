@@ -14,12 +14,10 @@ class ProductsController < ApplicationController
 
   def new
     @product = Product.new
-    @price = Price.all
     respond_with(@product)
   end
 
   def edit
-    @price = Price.all
 
   end
 
@@ -45,6 +43,6 @@ class ProductsController < ApplicationController
     end
 
     def product_params
-      params.require(:product).permit(:name, :price_id, :description)
+      params.require(:product).permit(:name, :price, :description)
     end
 end

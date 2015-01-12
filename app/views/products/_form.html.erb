@@ -16,8 +16,8 @@
     <%= f.text_field :name %>
   </div>
   <div class="field">
-	<%= f.label :price_id %><br>
-    <%= f.collection_select :price_id, @price, :id, :price %>
+	<%= f.label :price %><br>
+    <%= f.number_field :price %>
   </div>
   <div class="field">
     <%= f.label :description %><br>

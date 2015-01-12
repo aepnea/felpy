@@ -15,7 +15,7 @@ class OrdersController < ApplicationController
   def new
     @order = Order.new
     @user_id = current_user.id  #variable para generar el hidden_field en la vista del formulario de producto
-    @products = Product.all
+    @products = Product.all #listo los productos para el collection select
     respond_with(@order)
   end
 
