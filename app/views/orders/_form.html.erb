@@ -10,7 +10,6 @@
       </ul>
     </div>
   <% end %>
-<%= @user_id %>
   <div class="field">
     <%= f.label :product_id %><br>
     <%= f.collection_select :product_id, @products, :id, :name %>
@@ -24,7 +23,7 @@
     <%= f.text_field :attachment %>
   </div>
   <div class="field">
-    <%= f.hidden_field :user_id, :value => @user_id %>
+    <%= f.hidden_field :user_id, :value => @user_id %> 
   </div>
   <div class="field">
     <%= f.label :phone %><br>
