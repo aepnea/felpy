@@ -3,4 +3,7 @@ class Order < ActiveRecord::Base
   belongs_to :region
   belongs_to :product #esto hay que cambiarlo a muchos
   
+  
+  mount_uploader :attachment, OrderImageUploader
+
 end

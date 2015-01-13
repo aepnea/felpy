@@ -12459,3 +12459,1027 @@ Processing by OrdersController#index as HTML
   [1m[36mOrder Load (0.7ms)[0m  [1mSELECT `orders`.* FROM `orders`[0m
   Rendered orders/index.html.erb within layouts/application (2.9ms)
 Completed 200 OK in 98ms (Views: 95.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-01-12 13:50:39 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by OrdersController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrder Load (0.5ms)[0m  [1mSELECT `orders`.* FROM `orders`[0m
+  Rendered orders/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 250ms (Views: 181.2ms | ActiveRecord: 33.1ms)
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 13:50:40 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-12 22:14:13 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-12 22:14:50 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-12 22:15:30 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by OrdersController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrder Load (0.4ms)[0m  [1mSELECT `orders`.* FROM `orders`[0m
+  Rendered orders/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 293ms (Views: 241.6ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2015-01-12 22:15:30 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-12 22:15:30 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2015-01-12 22:15:30 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-01-12 22:15:30 -0300
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2015-01-12 22:15:30 -0300
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2015-01-12 22:15:30 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 22:15:30 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 22:15:30 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 22:15:30 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 22:15:30 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2015-01-12 22:15:31 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-01-12 22:15:31 -0300
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2015-01-12 22:15:31 -0300
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2015-01-12 22:15:31 -0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2015-01-12 22:15:31 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 22:15:31 -0300
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2015-01-12 22:15:38 -0300
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+  Rendered orders/_form.html.erb (62.7ms)
+  Rendered orders/new.html.erb within layouts/application (67.8ms)
+Completed 200 OK in 202ms (Views: 188.2ms | ActiveRecord: 8.5ms)
+
+
+Started POST "/orders" for 127.0.0.1 at 2015-01-12 22:15:59 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cdZrYJFSo9UqpU1yv9Nll/C/m8kzpazmyZXmlfXdSXQ=", "order"=>{"product_id"=>"1", "description"=>"qweqwe", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x007fb9e527af28 @tempfile=#<Tempfile:/var/folders/b6/tknvj8hd093f65hclx3fhm540000gn/T/RackMultipart20150112-36343-7hbkvl>, @original_filename="14723895.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"order[attachment]\"; filename=\"14723895.jpg\"\r\nContent-Type: image/jpeg\r\n">, "user_id"=>"1", "phone"=>"3324234", "street"=>"eqwqew", "number"=>"234234", "depto"=>"asdasd", "delivery_name"=>"asdasd"}, "commit"=>"Create Order"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 9ms
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/orders_controller.rb:27:in `create'
+
+
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.1ms)
+
+
+Started POST "/orders" for 127.0.0.1 at 2015-01-12 22:20:16 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cdZrYJFSo9UqpU1yv9Nll/C/m8kzpazmyZXmlfXdSXQ=", "order"=>{"product_id"=>"1", "description"=>"qweqwe", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x007fb9e3a30850 @tempfile=#<Tempfile:/var/folders/b6/tknvj8hd093f65hclx3fhm540000gn/T/RackMultipart20150112-36343-135v4oq>, @original_filename="14723895.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"order[attachment]\"; filename=\"14723895.jpg\"\r\nContent-Type: image/jpeg\r\n">, "user_id"=>"1", "phone"=>"3324234", "street"=>"eqwqew", "number"=>"234234", "depto"=>"asdasd", "delivery_name"=>"asdasd"}, "commit"=>"Create Order"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/orders_controller.rb:27:in `create'
+
+
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started POST "/orders" for 127.0.0.1 at 2015-01-12 22:27:13 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cdZrYJFSo9UqpU1yv9Nll/C/m8kzpazmyZXmlfXdSXQ=", "order"=>{"product_id"=>"1", "description"=>"qweqwe", "user_id"=>"1", "phone"=>"3324234", "street"=>"eqwqew", "number"=>"234234", "depto"=>"asdasd", "delivery_name"=>"asdasd"}, "commit"=>"Create Order"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.0ms)[0m  INSERT INTO `orders` (`created_at`, `delivery_name`, `depto`, `description`, `number`, `phone`, `product_id`, `street`, `updated_at`, `user_id`) VALUES ('2015-01-13 01:27:13', 'asdasd', 'asdasd', 'qweqwe', 234234, 3324234, 1, 'eqwqew', '2015-01-13 01:27:13', 1)
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/orders/2
+Completed 302 Found in 16ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/orders/2" for 127.0.0.1 at 2015-01-12 22:27:13 -0300
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrder Load (0.7ms)[0m  [1mSELECT  `orders`.* FROM `orders`  WHERE `orders`.`id` = 2 LIMIT 1[0m
+  Rendered orders/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 125ms (Views: 121.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:13 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:13 -0300
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:13 -0300
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:13 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:13 -0300
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:13 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:13 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:13 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:13 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:13 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:13 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:13 -0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:13 -0300
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:14 -0300
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:14 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:14 -0300
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-01-12 22:27:16 -0300
+Processing by OrdersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrder Load (0.6ms)[0m  [1mSELECT `orders`.* FROM `orders`[0m
+  Rendered orders/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 123ms (Views: 120.4ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/orders/2" for 127.0.0.1 at 2015-01-12 22:27:21 -0300
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"cdZrYJFSo9UqpU1yv9Nll/C/m8kzpazmyZXmlfXdSXQ=", "id"=>"2"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrder Load (0.4ms)[0m  [1mSELECT  `orders`.* FROM `orders`  WHERE `orders`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (5.8ms)[0m  [1mDELETE FROM `orders` WHERE `orders`.`id` = 2[0m
+  [1m[35m (4.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 17ms (ActiveRecord: 11.7ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-01-12 22:27:21 -0300
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrder Load (1.1ms)[0m  SELECT `orders`.* FROM `orders`
+  Rendered orders/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 137ms (Views: 132.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:21 -0300
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:21 -0300
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:22 -0300
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:22 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:22 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:22 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:22 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:22 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:22 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:22 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:22 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:22 -0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:22 -0300
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:22 -0300
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:22 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:22 -0300
+
+
+Started DELETE "/orders/1" for 127.0.0.1 at 2015-01-12 22:27:23 -0300
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"cdZrYJFSo9UqpU1yv9Nll/C/m8kzpazmyZXmlfXdSXQ=", "id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrder Load (0.8ms)[0m  SELECT  `orders`.* FROM `orders`  WHERE `orders`.`id` = 1 LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  DELETE FROM `orders` WHERE `orders`.`id` = 1
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 12ms (ActiveRecord: 4.5ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-01-12 22:27:23 -0300
+Processing by OrdersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT `orders`.* FROM `orders`[0m
+  Rendered orders/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 132ms (Views: 128.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:23 -0300
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:23 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:23 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:23 -0300
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:23 -0300
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:24 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 22:27:24 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:24 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:24 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:24 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:24 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:24 -0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:24 -0300
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:24 -0300
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:24 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 22:27:24 -0300
+  [1m[36m (6.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (20.7ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateProducts (20141216201606)
+  [1m[35m (9.5ms)[0m  CREATE TABLE `products` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `price_id` int(11), `description` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20141216201606')
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+Migrating to DeviseCreateUsers (20141216201741)
+  [1m[35m (6.6ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (16.7ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  [1m[35m (8.6ms)[0m  CREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20141216201741')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+Migrating to AddColumnsToUsers (20141216202303)
+  [1m[35m (31.4ms)[0m  ALTER TABLE `users` ADD `provider` varchar(255)
+  [1m[36m (8.4ms)[0m  [1mALTER TABLE `users` ADD `uid` varchar(255)[0m
+  [1m[35m (10.4ms)[0m  ALTER TABLE `users` ADD `image` blob
+  [1m[36m (18.0ms)[0m  [1mALTER TABLE `users` ADD `name` varchar(255)[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20141216202303')[0m
+  [1m[35m (0.9ms)[0m  COMMIT
+Migrating to CreatePrices (20150111042942)
+  [1m[36m (8.9ms)[0m  [1mCREATE TABLE `prices` (`id` int(11) auto_increment PRIMARY KEY, `price` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150111042942')[0m
+  [1m[35m (0.9ms)[0m  COMMIT
+Migrating to CreateRegions (20150111051106)
+  [1m[36m (8.8ms)[0m  [1mCREATE TABLE `regions` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `number` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150111051106')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+Migrating to CreateComunas (20150111051116)
+  [1m[36m (3.2ms)[0m  [1mCREATE TABLE `comunas` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `region_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150111051116')[0m
+  [1m[35m (1.2ms)[0m  COMMIT
+Migrating to CreateOrders (20150111052158)
+  [1m[36m (3.1ms)[0m  [1mCREATE TABLE `orders` (`id` int(11) auto_increment PRIMARY KEY, `product_id` int(11), `description` text, `attachment` blob, `user_id` int(11), `phone` int(11), `street` varchar(255), `number` int(11), `depto` varchar(255), `delivery_name` varchar(255), `price_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150111052158')[0m
+  [1m[35m (0.9ms)[0m  COMMIT
+Migrating to AddColumnsToProducts (20150112152746)
+  [1m[36m (26.6ms)[0m  [1mALTER TABLE `products` ADD `price` int(11)[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150112152746')[0m
+  [1m[35m (4.2ms)[0m  COMMIT
+Migrating to DropColumnsToProducts (20150112152806)
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150112152806')
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by OrdersController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+Completed 401 Unauthorized in 24ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (11.2ms)
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (40.5ms)
+Completed 200 OK in 300ms (Views: 284.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:11 -0300
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (0.6ms)
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 134ms (Views: 133.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:12 -0300
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2015-01-12 22:28:13 -0300
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2015-01-12 22:28:14 -0300
+
+
+Started GET "/users/auth/facebook/callback?code=AQBQtSLjDvb2tiHT70xPqSN4wMbq4co3xdIVVq1iOv-MArqpQJlH-qMAJCsgDzV1axr5AE_3She_qICv2orLUCRHkqIga4XSru1XsWZmdZCoGkFjYGbVzVh3ZCK9bquFl58HXPDBErqJgARuLhM0hpCnyKYsbNZ2Jld0_gOMvkOAfkvHRzn2NhaTFDLJyC7f3jkKGBtREjyFEAeewG-mbnzbQJROaWoDSGZhyesSZB2Sw_BZQsrjDNMZx3oa_LbXPP7B_IsBixWYPW1fWhLjQdErmUlVueRUnE2hM9ZCCL2dr9fr_lyKIIBmFu6hM2yer1RUz8HnudE1lgKxPX0jaaZE&state=623764a173bf28fcb107f43397bafb79f021183620768bc7" for 127.0.0.1 at 2015-01-12 22:28:15 -0300
+Processing by CallbacksController#facebook as HTML
+  Parameters: {"code"=>"AQBQtSLjDvb2tiHT70xPqSN4wMbq4co3xdIVVq1iOv-MArqpQJlH-qMAJCsgDzV1axr5AE_3She_qICv2orLUCRHkqIga4XSru1XsWZmdZCoGkFjYGbVzVh3ZCK9bquFl58HXPDBErqJgARuLhM0hpCnyKYsbNZ2Jld0_gOMvkOAfkvHRzn2NhaTFDLJyC7f3jkKGBtREjyFEAeewG-mbnzbQJROaWoDSGZhyesSZB2Sw_BZQsrjDNMZx3oa_LbXPP7B_IsBixWYPW1fWhLjQdErmUlVueRUnE2hM9ZCCL2dr9fr_lyKIIBmFu6hM2yer1RUz8HnudE1lgKxPX0jaaZE", "state"=>"623764a173bf28fcb107f43397bafb79f021183620768bc7"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`provider` IS NULL AND `users`.`uid` IS NULL  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM `users`  WHERE `users`.`email` = BINARY 'cvasquez@zaetachile.cl' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `users` (`created_at`, `email`, `encrypted_password`, `name`, `updated_at`) VALUES ('2015-01-13 01:28:18', 'cvasquez@zaetachile.cl', '$2a$10$6n6/ONaH69vess2qPtplm.p/N9iGYVndvZOA8mY1C0DZ.cu95JoL.', 'Cristian A. Vasquez Parga', '2015-01-13 01:28:18')
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE `users` SET `current_sign_in_at` = '2015-01-13 01:28:18', `current_sign_in_ip` = '127.0.0.1', `last_sign_in_at` = '2015-01-13 01:28:18', `last_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2015-01-13 01:28:18' WHERE `users`.`id` = 1[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 102ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mOrder Load (0.6ms)[0m  SELECT `orders`.* FROM `orders`
+  Rendered orders/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 147ms (Views: 137.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:18 -0300
+
+
+Started GET "/products" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+Processing by ProductsController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mProduct Load (0.9ms)[0m  SELECT `products`.* FROM `products`
+  Rendered products/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 131ms (Views: 124.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:22 -0300
+
+
+Started GET "/products/new" for 127.0.0.1 at 2015-01-12 22:28:24 -0300
+Processing by ProductsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered products/_form.html.erb (10.1ms)
+  Rendered products/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 140ms (Views: 135.4ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cdZrYJFSo9UqpU1yv9Nll/C/m8kzpazmyZXmlfXdSXQ=", "product"=>{"name"=>"qwqweqw", "price"=>"3423423", "description"=>"werwerwer"}, "commit"=>"Create Product"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (4.2ms)[0m  INSERT INTO `products` (`created_at`, `description`, `name`, `price`, `updated_at`) VALUES ('2015-01-13 01:28:30', 'werwerwer', 'qwqweqw', 3423423, '2015-01-13 01:28:30')
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/products/1
+Completed 302 Found in 17ms (ActiveRecord: 6.8ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mProduct Load (0.8ms)[0m  [1mSELECT  `products`.* FROM `products`  WHERE `products`.`id` = 1 LIMIT 1[0m
+  Rendered products/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 127ms (Views: 123.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:30 -0300
+
+
+Started GET "/products" for 127.0.0.1 at 2015-01-12 22:28:42 -0300
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mProduct Load (0.6ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+  Rendered products/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 127ms (Views: 124.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+Processing by OrdersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrder Load (0.4ms)[0m  [1mSELECT `orders`.* FROM `orders`[0m
+  Rendered orders/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 127ms (Views: 124.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 22:28:50 -0300
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2015-01-12 22:28:57 -0300
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered orders/_form.html.erb (17.2ms)
+  Rendered orders/new.html.erb within layouts/application (18.3ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (wrong number of arguments (4 for 1..2)):
+    12:   <% end %>
+    13:   <div class="field">
+    14:     <%= f.label :product_id %><br>
+    15:     <%= f.text_field :product_id, @products, :id, :name %>
+    16:   </div>
+    17:   <div class="field">
+    18:     <%= f.label :description %><br>
+  app/views/orders/_form.html.erb:15:in `block in _app_views_orders__form_html_erb___3799931225643496330_70184078564860'
+  app/views/orders/_form.html.erb:1:in `_app_views_orders__form_html_erb___3799931225643496330_70184078564860'
+  app/views/orders/new.html.erb:3:in `_app_views_orders_new_html_erb___4451769222253180528_70184086294200'
+  app/controllers/orders_controller.rb:19:in `new'
+
+
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.7ms)
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2015-01-12 22:28:57 -0300
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered orders/_form.html.erb (1.8ms)
+  Rendered orders/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (wrong number of arguments (4 for 1..2)):
+    12:   <% end %>
+    13:   <div class="field">
+    14:     <%= f.label :product_id %><br>
+    15:     <%= f.text_field :product_id, @products, :id, :name %>
+    16:   </div>
+    17:   <div class="field">
+    18:     <%= f.label :description %><br>
+  app/views/orders/_form.html.erb:15:in `block in _app_views_orders__form_html_erb___3799931225643496330_70184078564860'
+  app/views/orders/_form.html.erb:1:in `_app_views_orders__form_html_erb___3799931225643496330_70184078564860'
+  app/views/orders/new.html.erb:3:in `_app_views_orders_new_html_erb___4451769222253180528_70184086294200'
+  app/controllers/orders_controller.rb:19:in `new'
+
+
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.8ms)
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mProduct Load (0.6ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+  Rendered orders/_form.html.erb (10.3ms)
+  Rendered orders/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 143ms (Views: 140.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 22:29:24 -0300
+
+
+Started POST "/orders" for 127.0.0.1 at 2015-01-12 22:29:38 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cdZrYJFSo9UqpU1yv9Nll/C/m8kzpazmyZXmlfXdSXQ=", "order"=>{"product_id"=>"1", "description"=>"ewewerwe", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x007faa026bed20 @tempfile=#<Tempfile:/var/folders/b6/tknvj8hd093f65hclx3fhm540000gn/T/RackMultipart20150112-36629-xh34gi>, @original_filename="14732354.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"order[attachment]\"; filename=\"14732354.jpg\"\r\nContent-Type: image/jpeg\r\n">, "user_id"=>"1", "phone"=>"3234", "street"=>"ewrwer", "number"=>"234", "depto"=>"sdf", "delivery_name"=>"sdfsdf"}, "commit"=>"Create Order"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 7ms
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/orders_controller.rb:27:in `create'
+
+
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/AEpnea/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.9ms)
+
+
+Started POST "/orders" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cdZrYJFSo9UqpU1yv9Nll/C/m8kzpazmyZXmlfXdSXQ=", "order"=>{"product_id"=>"1", "description"=>"ewewerwe", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x007f9a71f6cee0 @tempfile=#<Tempfile:/var/folders/b6/tknvj8hd093f65hclx3fhm540000gn/T/RackMultipart20150112-36997-1hrl1ug>, @original_filename="14732354.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"order[attachment]\"; filename=\"14732354.jpg\"\r\nContent-Type: image/jpeg\r\n">, "user_id"=>"1", "phone"=>"3234", "street"=>"ewrwer", "number"=>"234", "depto"=>"sdf", "delivery_name"=>"sdfsdf"}, "commit"=>"Create Order"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO `orders` (`attachment`, `created_at`, `delivery_name`, `depto`, `description`, `number`, `phone`, `product_id`, `street`, `updated_at`, `user_id`) VALUES (x'31343733323335342e6a7067', '2015-01-13 01:41:34', 'sdfsdf', 'sdf', 'ewewerwe', 234, 3234, 1, 'ewrwer', '2015-01-13 01:41:34', 1)
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/orders/1
+Completed 302 Found in 76ms (ActiveRecord: 10.2ms)
+
+
+Started GET "/orders/1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrder Load (0.5ms)[0m  [1mSELECT  `orders`.* FROM `orders`  WHERE `orders`.`id` = 1 LIMIT 1[0m
+  Rendered orders/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 213ms (Views: 209.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/assets/regions.css?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/assets/regions.js?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-12 22:41:34 -0300
+
+
+Started GET "/orders" for 127.0.0.1 at 2015-01-12 22:41:36 -0300
+Processing by OrdersController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mOrder Load (0.6ms)[0m  [1mSELECT `orders`.* FROM `orders`[0m
+  Rendered orders/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 128ms (Views: 124.7ms | ActiveRecord: 1.3ms)

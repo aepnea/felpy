@@ -31,6 +31,9 @@ gem 'devise'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'mysql2'
+gem 'bootstrap-sass', '~> 3.3.1.0'
+gem 'carrierwave'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -1,4 +1,4 @@
-<%= form_for(@order) do |f| %>
+<%= form_for(@order, multipart: true ) do |f| %>
   <% if @order.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@order.errors.count, "error") %> prohibited this order from being saved:</h2>
@@ -20,7 +20,7 @@
   </div>
   <div class="field">
     <%= f.label :attachment %><br>
-    <%= f.text_field :attachment %>
+    <%= f.file_field :attachment %>
   </div>
   <div class="field">
     <%= f.hidden_field :user_id, :value => @user_id %> 

@@ -15,7 +15,7 @@ default: &default
   pool: 5
   username: root
   password: "rrff4646"
-  host: 172.16.215.159
+  host: 172.16.215.161
   socket: /tmp/mysql.sock
 
 development:
